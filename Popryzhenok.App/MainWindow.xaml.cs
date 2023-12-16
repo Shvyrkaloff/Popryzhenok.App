@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Popryzhenok.App.Windows;
 
 namespace Popryzhenok.App
 {
@@ -23,6 +24,13 @@ namespace Popryzhenok.App
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void NextWindow_OnClick(object sender, RoutedEventArgs e)
+        {
+            AgentListWindow window = new AgentListWindow();
+            Hide();
+            window.Show();
         }
     }
 }
