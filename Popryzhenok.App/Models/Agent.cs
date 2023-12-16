@@ -21,5 +21,7 @@
         public string? Email { get; set; }
 
         public int? Priority { get; set; }
+
+        public string? ImagePath { get; set; }
     }
 }
