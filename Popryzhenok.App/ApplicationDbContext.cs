@@ -10,28 +10,28 @@ namespace Popryzhenok.App
 
         }
 
-        DbSet<Agent> Agents { get; set; }
+        public DbSet<Agent> Agents { get; set; }
 
-        DbSet<Employee> Employees { get; set; }
+        public DbSet<Employee> Employees { get; set; }
 
-        DbSet<Factory> Factories { get; set; }
+        public DbSet<Factory> Factories { get; set; }
 
-        DbSet<HistoryOfReleaseProduct> HistoryOfReleaseProducts { get; set; }
+        public DbSet<HistoryOfReleaseProduct> HistoryOfReleaseProducts { get; set; }
 
-        DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; }
 
-        DbSet<Material> Materials { get; set; }
+        public DbSet<Material> Materials { get; set; }
 
-        DbSet<MinCostChangeHistory> MinCostChangeHistory { get; set; }
+        public DbSet<MinCostChangeHistory> MinCostChangeHistory { get; set; }
 
-        DbSet<Offer> Offers { get; set; }
+        public DbSet<Offer> Offers { get; set; }
 
-        DbSet<Provider> Providers { get; set; }
+        public DbSet<Provider> Providers { get; set; }
 
-        DbSet<RequestOnProduct> RequestOnProducts { get; set; }
+        public DbSet<RequestOnProduct> RequestOnProducts { get; set; }
 
-        DbSet<Size> Sizes { get; set; }
+        public DbSet<Size> Sizes { get; set; }
 
-        DbSet<Transfer> Transfers { get; set; }
+        public DbSet<Transfer> Transfers { get; set; }
     }
 }
