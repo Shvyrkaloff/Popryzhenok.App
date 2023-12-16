@@ -87,6 +87,14 @@
     <Compile Include="Migrations\202312161628357_Initial.designer.cs">
       <DependentUpon>202312161628357_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202312161637369_AddImagePath.cs" />
+    <Compile Include="Migrations\202312161637369_AddImagePath.designer.cs">
+      <DependentUpon>202312161637369_AddImagePath.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202312161655032_AddCountOfPProduct.cs" />
+    <Compile Include="Migrations\202312161655032_AddCountOfPProduct.designer.cs">
+      <DependentUpon>202312161655032_AddCountOfPProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Agent.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -115,6 +123,12 @@
     </Compile>
     <EmbeddedResource Include="Migrations\202312161628357_Initial.resx">
       <DependentUpon>202312161628357_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312161637369_AddImagePath.resx">
+      <DependentUpon>202312161637369_AddImagePath.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202312161655032_AddCountOfPProduct.resx">
+      <DependentUpon>202312161655032_AddCountOfPProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

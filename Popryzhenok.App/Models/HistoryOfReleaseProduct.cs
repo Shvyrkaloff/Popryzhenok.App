@@ -15,5 +15,7 @@ namespace Popryzhenok.App.Models
         public virtual Product? Product { get; set; }
 
         public DateTime? DateTime { get; set; }
+
+        public int Count { get; set; }
     }
 }
